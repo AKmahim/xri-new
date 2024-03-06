@@ -4256,8 +4256,12 @@ Bread crum: End
 
 .services-block.style-three .list .service-item:hover .heading5,
 .services-block.style-three .list .service-item:hover .body3,
-.services-block.style-three .list .service-item:hover u {
+.services-block.style-three .list .service-item:hover u{
   color: var(--on-surface);
+}
+.services-block.style-three .list .service-item:hover #service-icon-svg{
+  /* fill:#000; */
+  stroke:#000;
 }
 
 /*
